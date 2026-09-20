@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitelerim</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+        }
+
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-card {
+            display: block;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 13px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .link-card:hover {
+            background: #3b82f6;
+            border-color: #3b82f6;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Web Sitelerim</h1>
+        <p>Projelerime ve web sayfalarıma buradan ulaşabilirsiniz.</p>
+
+        <div class="links-list">
+            <!-- 1. Site -->
+            <a href="https://ariesckontrol-paneli.onrender.com" class="link-card" target="_blank">kontrol paneli aries 1</a>
+            <!-- 2. Site -->
+            <a href="https://aries-a5bl.onrender.com" class="link-card" target="_blank">ARİES Aİ</a>
+            <!-- 3. Site -->
+            <a href="https://pytone.onrender.com" class="link-card" target="_blank">Eğlenceli Payton</a>
+            <!-- 4. Site -->
+            <a href="https://saka-raga.onrender.com" class="link-card" target="_blank">Şaka</a>
+            <!-- 5. Site -->
+            <a href="https://tabu-2dy8.onrender.com" class="link-card" target="_blank">Tabu</a>
+            <!-- 6. Site -->
+            <a href="https://yemek-tarifi-kolayla-t-r-c.onrender.com" class="link-card" target="_blank">Tarif</a>
+        </div>
+
+        <footer>
+            &copy; 2026 - Tüm Hakları Saklıdır.
+        </footer>
+    </div>
+
+</body>
+</html>
